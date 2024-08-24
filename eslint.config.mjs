@@ -20,7 +20,7 @@ export default tseslint.config(
     ...tseslint.configs.stylisticTypeChecked,
     {
         rules: {
-            '@typescript-eslint/no-namespace': 'off'
+            '@typescript-eslint/no-namespace': 'off',
         },
         languageOptions: {
             parserOptions: {
